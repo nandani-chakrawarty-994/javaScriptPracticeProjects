@@ -1,3 +1,4 @@
+
 let btn = document.querySelector('button');
 let value = document.querySelector('h1');
 let inner = document.querySelector('.inner');

@@ -45,6 +45,7 @@ main{
 }
 
 .inner {    
+    width: 0%;
     background: green;
     height: 0.5rem;
     margin-bottom: 40px;

@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(70, 70, 70);
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.bulb {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+button {
+    font-size: 2rem;
+    padding: 0.5rem 2rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:active {
+    scale: 1.1;
+}
