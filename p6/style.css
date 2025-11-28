@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.726);
+}
+
+:root {
+    --x: 400px;
+    --y: 400px
+}
+
+/* body{
+     background: url('https://images.pexels.com/photos/1118667/pexels-photo-1118667.jpeg?cs=srgb&dl=pexels-cody-king-433493-1118667.jpg&fm=jpg');
+    background-size: cover;
+    background-position: center;
+} */
+
+.video{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.spotlight {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    background: radial-gradient(150px at var(--x) var(--y), rgba(255, 255, 255, 0.268),rgba(0, 0, 0, 0.862));
+}
